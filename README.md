@@ -18,7 +18,7 @@ public class Main {
 
         tutar=acılıs+(km*sbt);
         
-        sonT=tutar > 20 ? tutar : minTutar ;
+        sonT=tutar > minTutar ? tutar : minTutar ;
         
         System.out.println("Taksimetre Km Ücreti: "+sonT);
     }
